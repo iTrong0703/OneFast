@@ -1,0 +1,24 @@
+.motors-add-car-button.listing_add_cart {
+    display: block;
+    position: relative;
+    padding: 12px 20px 10px 20px;
+    background: var(--mvl-secondary-color);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.motors-add-car-button.listing_add_cart div {
+    display: flex;
+    align-items: center;
+}
+
+.motors-add-car-button.listing_add_cart span {
+    color: #fff;
+}
+
+.motors-add-car-button.listing_add_cart i {
+    color: #fff;
+    font-size: 17px;
+}

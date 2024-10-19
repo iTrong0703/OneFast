@@ -1,0 +1,157 @@
+.filter-listing.motors_dynamic_listing_filter {
+    background-color: #153e4d;
+    padding: 42px 30px 20px;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 5px;
+    flex: 1;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects {
+        flex-direction: column;
+    }
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 83%;
+}
+
+@media (max-width: 921px) {
+    .filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row {
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row {
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col {
+    display: block;
+    width: 25%;
+    margin-bottom: 15px;
+    padding: 0 8px;
+    position: relative;
+  /*UI SLIDER*/
+}
+
+@media (max-width: 921px) {
+    .filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col {
+        width: 33.333333%;
+    }
+}
+
+@media (max-width: 767px) {
+    .filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .stm-ajax-reloadable .select2-container--default .select2-selection--single {
+    height: 46px;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .stm-ajax-reloadable .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 46px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding-left: 14px;
+    padding-right: 40px;
+    outline: none !important;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .stm-ajax-reloadable .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 46px;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col label {
+    color: #ffffff;
+    line-height: 14px;
+    vertical-align: top;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .stm-current-slider-labels {
+    display: block;
+    margin: -2px 0 8px;
+    text-align: right;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .stm-taxonomy-range-unit {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .ui-slider-horizontal {
+    height: 4px;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .ui-slider {
+    background-color: #dfe1e5;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .ui-slider .ui-slider-range {
+    background-color: #6c98e1;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .ui-slider .ui-slider-handle {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.36);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    top: -9px;
+    margin-left: -10px;
+    background-color: #fff;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .ui-slider .ui-slider-handle:after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -5px;
+    width: 10px;
+    height: 10px;
+    background-color: #6c98e1;
+    border-radius: 50%;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .row .stm-select-col .ui-slider .ui-slider-handle.ui-state-active:after {
+    transform: scale(1.1);
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects input::-webkit-outer-spin-button,
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .search-submit i {
+    margin-right: 5px;
+}
+
+.filter-listing.motors_dynamic_listing_filter .stm-filter-tab-selects .search-submit span {
+    margin-right: 2px;
+}

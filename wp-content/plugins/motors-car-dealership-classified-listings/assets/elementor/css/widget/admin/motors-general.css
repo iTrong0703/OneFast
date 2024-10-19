@@ -1,0 +1,156 @@
+.elementor-editor-active .form-group.type-select {
+    position: relative;
+}
+
+.elementor-editor-active .form-group.type-select:before {
+    display: block;
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10px;
+    margin-left: 0;
+    font-size: 16px;
+    color: #888;
+    width: 15px;
+    height: 15px;
+    border: none;
+    text-align: center;
+    line-height: 16px;
+}
+
+.elementor-editor-active .form-group.type-select select {
+    opacity: 1;
+    visibility: visible;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding: 0 40px 0 14px;
+    outline: none !important;
+    background-color: #eceff3;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.elementor-editor-active .stm_add_car_form .stm-form1-intro-unit,
+.elementor-editor-active .stm_add_car_form .stm-form-1-quarter,
+.elementor-editor-active .stm_add_car_form .stm-form-plans {
+    position: relative;
+}
+
+.elementor-editor-active .stm_add_car_form .stm-form1-intro-unit select,
+.elementor-editor-active .stm_add_car_form .stm-form-1-quarter select,
+.elementor-editor-active .stm_add_car_form .stm-form-plans select {
+    opacity: 1;
+    visibility: visible;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding: 0 40px 0 14px;
+    outline: none !important;
+    background-color: #eceff3;
+    border: none;
+    width: 100%;
+}
+
+.elementor-editor-active .stm_add_car_form .stm_add_car_form_1 .stm-form-1-end-unit > .stm-form-1-quarter {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elementor-editor-active .stm_add_car_form .stm_add_car_form_1 .stm-form-1-end-unit > .stm-form-1-quarter .stm-label {
+    margin-top: 0;
+}
+
+.elementor-editor-active .stm_add_car_form .stm_add_car_form_1 .stm-form-1-end-unit > .stm-form-1-quarter select {
+    opacity: 1;
+    visibility: visible;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding: 0 40px 0 14px;
+    outline: none !important;
+    background-color: #eceff3;
+    border: none;
+    width: 64%;
+}
+
+.elementor-editor-active .stm-sort-by-options .stm-select-sorting {
+    position: relative;
+}
+
+.elementor-editor-active .stm-sort-by-options .stm-select-sorting:before {
+    display: block;
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10px;
+    margin-left: 0;
+    font-size: 16px;
+    color: #888;
+    width: 15px;
+    height: 15px;
+    border: none;
+    text-align: center;
+    line-height: 16px;
+}
+
+.elementor-editor-active .stm-sort-by-options .stm-select-sorting select {
+    opacity: 1;
+    visibility: visible;
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding: 0 40px 0 14px;
+    outline: none !important;
+    background-color: #eceff3;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.elementor-editor-active .stm-multiple-select select {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    line-height: 38px;
+    height: 38px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding: 0 40px 0 14px;
+    outline: none !important;
+    background-color: #eceff3;
+    border: none;
+    border-radius: 0;
+    overflow-y: hidden;
+}
+
+.elementor-editor-active .stm-multiple-select select option {
+    display: none;
+}

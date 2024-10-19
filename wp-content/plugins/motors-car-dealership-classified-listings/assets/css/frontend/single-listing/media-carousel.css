@@ -1,0 +1,31 @@
+/*Default*/
+.stm-orange {
+    color: #ffb129;
+}
+
+.media-carousel-item {
+    max-width: 270px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.media-carousel-item .stm_fancybox {
+    display: block;
+    position: relative;
+}
+
+.media-carousel-item .stm_fancybox:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.media-carousel-item .stm_fancybox:hover:after {
+    opacity: 1;
+}

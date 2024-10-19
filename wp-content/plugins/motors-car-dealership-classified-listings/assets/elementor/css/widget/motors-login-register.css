@@ -1,0 +1,54 @@
+.stm-login-register-form .stm-register-form form h4, .stm-login-register-form .stm-register-form form small, .stm-login-register-form .stm-register-form form span, .stm-login-register-form .stm-login-form form h4, .stm-login-register-form .stm-login-form form small, .stm-login-register-form .stm-login-form form span {
+    color: inherit;
+}
+
+.stm-login-register-form .stm-register-form form .form-group.form-checker, .stm-login-register-form .stm-login-form form .form-group.form-checker {
+    color: inherit;
+}
+
+.stm-login-register-form .stm-register-form form label[for=whatsapp-checker], .stm-login-register-form .stm-login-form form label[for=whatsapp-checker] {
+    margin-top: 10px;
+}
+
+.stm-login-register-form .stm-login-form .form-checker {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.stm-login-register-form .stm-login-form .form-checker .label {
+    margin: 0;
+}
+
+.stm-login-register-form .stm-login-form .form-checker .stm-forgot-password {
+    line-height: 1;
+}
+
+.stm-login-register-form .stm-login-form form.stm_forgot_password_send {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stm-login-register-form .stm-login-form form.stm_forgot_password_send input[type=submit] {
+    padding: 15px 20px 13px;
+    margin-top: 15px;
+    font-size: 12px !important;
+}
+
+.stm-login-register-form .stm-login-form .stm-forgot-password a {
+    color: inherit;
+}
+
+.stm-login-register-form .wp-social-login-connect-with {
+    color: inherit;
+}
+
+.stm-login-register-form form .stm-button, .stm-login-register-form form input[type=submit], .stm-login-register-form form button, .stm-login-register-form form .button, .stm-login-register-form form .load-more-btn {
+    transition: 0.3s ease;
+}
+
+.stm-login-register-form form .stm-button:hover, .stm-login-register-form form input[type=submit]:hover, .stm-login-register-form form button:hover, .stm-login-register-form form .button:hover, .stm-login-register-form form .load-more-btn:hover {
+    opacity: 1;
+}

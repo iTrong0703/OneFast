@@ -1,0 +1,129 @@
+.filter-sidebar {
+    --location-field-border-width: 2px;
+    --location-field-color: black;
+    --location-field-border-color: #eceff3;
+    --location-field-placeholder-color: #888888;
+    --location-field-empty-color: black;
+    --location-field-empty-border-color: #eceff3;
+    --location-field-empty-placeholder-color: #888888;
+    --location-field-focus-color: black;
+    --location-field-focus-border-color: #1bc744;
+    --location-field-focus-placeholder-color: #888888;
+    --location-field-bg-color: #eceff3;
+}
+
+#ca_location_listing_filter {
+    background: var(--location-field-bg-color) !important;
+    border: var(--location-field-border-width) solid var(--location-field-border-color);
+    color: var(--location-field-color);
+    padding-left: 28px;
+}
+
+#ca_location_listing_filter::-moz-placeholder {
+    color: var(--location-field-placeholder-color);
+}
+
+#ca_location_listing_filter::placeholder {
+    color: var(--location-field-placeholder-color);
+}
+
+#ca_location_listing_filter:focus, #ca_location_listing_filter.empty:focus {
+    background-color: var(--location-field-bg-color) !important;
+    border-color: var(--location-field-focus-border-color);
+    color: var(--location-field-focus-color);
+}
+
+#ca_location_listing_filter:focus::-moz-placeholder, #ca_location_listing_filter.empty:focus::-moz-placeholder {
+    color: var(--location-field-focus-placeholder-color);
+}
+
+#ca_location_listing_filter:focus::placeholder, #ca_location_listing_filter.empty:focus::placeholder {
+    color: var(--location-field-focus-placeholder-color);
+}
+
+#ca_location_listing_filter.empty {
+    border-color: var(--location-field-empty-border-color);
+    color: var(--location-field-empty-color);
+}
+
+#ca_location_listing_filter.empty::-moz-placeholder {
+    color: var(--location-field-empty-placeholder-color);
+}
+
+#ca_location_listing_filter.empty::placeholder {
+    color: var(--location-field-empty-placeholder-color);
+}
+
+#ca_location_listing_filter:not(.empty) + .stm-location-reset-field {
+    display: inline-block !important;
+}
+
+.mobile-search-filter-opened .pac-container {
+    z-index: 999999 !important;
+}
+
+#stm_slide_filter_max_search_radius {
+    padding-right: 30px;
+}
+
+#stm_slide_filter_max_search_radius + .stm_unit_measurement {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    text-transform: uppercase;
+    color: #8F8F8F;
+    font-size: 14px;
+}
+
+.stm-location-search-unit {
+    position: relative;
+}
+
+.filter-sidebar .stm-location-search-unit:before {
+    content: "\e956";
+    color: #898989;
+  /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "stm-icon";
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 19px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.stm-location-search-unit #ca_location_listing_filter {
+    padding-right: 30px;
+}
+
+.stm-location-reset-field {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.stm-location-reset-field svg {
+    width: 14px;
+    height: 14px;
+}
+
+.stm-location-reset-field svg path {
+    fill: #898989;
+}
+
+@media screen and (max-width: 767px) {
+    .stm-location-reset-field {
+        top: 14px;
+    }
+}

@@ -1,0 +1,128 @@
+.stm-etm-wrap h2 {
+    margin: 30px 0;
+}
+
+.stm-etm-wrap .tabs-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.stm-etm-wrap .tabs-wrap .nav {
+    width: 15%;
+}
+
+.stm-etm-wrap .tabs-wrap .nav a {
+    border-radius: 0;
+    border-left: 1px solid;
+    margin-bottom: 4px;
+}
+
+.stm-etm-wrap .tabs-wrap .nav a.active {
+    border-left: 1px solid #ffffff !important;
+}
+
+.stm-etm-wrap .tabs-wrap .tab-content {
+    width: 85%;
+}
+
+.stm-etm-wrap .etm-single-form {
+    display: block;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.stm-etm-wrap .etm-single-form:nth-child(1n) {
+    margin-right: 50px;
+}
+
+.stm-etm-wrap .etm-single-form h3 {
+    display: block;
+    width: 50%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.stm-etm-wrap .etm-single-form .full_width {
+    display: block;
+    width: 50%;
+    min-height: 44px;
+    margin-bottom: 20px;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap .left {
+    display: block;
+    width: 100%;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap .left label {
+    margin-top: 20px;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap .right {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap .right h4 {
+    margin-top: 0;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap .right ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap .right ul li input {
+    display: block;
+    border: 0;
+    background: 0;
+    width: auto;
+    max-width: inherit;
+    min-width: inherit;
+    height: auto;
+    outline: none;
+    box-shadow: none;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    cursor: -webkit-grab;
+    cursor: grab;
+    text-align: center;
+}
+
+.stm-etm-wrap .etm-single-form .lr-wrap .right ul li input:hover, .stm-etm-wrap .etm-single-form .lr-wrap .right ul li input:active, .stm-etm-wrap .etm-single-form .lr-wrap .right ul li input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.stm-etm-wrap .tab-pane {
+    padding-left: 20px;
+}

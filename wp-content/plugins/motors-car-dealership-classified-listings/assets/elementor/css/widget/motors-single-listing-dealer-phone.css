@@ -1,0 +1,48 @@
+.stm-dealer-info-unit.phone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding-left: 53px;
+}
+
+.stm-dealer-info-unit.phone i {
+    margin: 0 20px 0 0;
+}
+
+.stm-dealer-info-unit.phone .inner .phone {
+    margin-right: 20px;
+}
+
+.stm-dealer-info-unit.phone .inner h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.stm-dealer-info-unit.phone .inner .stm-show-number {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: top;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+    min-width: 20px;
+    position: relative;
+}
+
+.stm-dealer-info-unit.phone .inner .stm-show-number.load_number {
+    color: transparent;
+}
+
+.stm-dealer-info-unit.phone .inner .stm-show-number.load_number:before {
+    content: "\f1ce";
+    display: block;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    color: #333333;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    animation: spin 2s linear infinite;
+}

@@ -1,0 +1,351 @@
+.stm_dynamic_listing_filter.stm_dynamic_listing_dealer_filter {
+    margin-bottom: 70px !important;
+}
+
+.stm_dynamic_listing_filter.stm_dynamic_listing_dealer_filter:before {
+    display: none !important;
+}
+
+.stm_dynamic_listing_filter.stm_dynamic_listing_dealer_filter .tab-content {
+    padding: 38px 30px 13px;
+    background: var(--mvl-third-color);
+}
+
+.stm_dynamic_listing_filter.stm_dynamic_listing_dealer_filter .tab-content .tab-pane {
+    display: block;
+    opacity: 1;
+}
+
+.stm_dynamic_listing_filter.stm_dynamic_listing_dealer_filter .tab-content .tab-pane button svg {
+    fill: #ffffff;
+}
+
+.dealer-search-results {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    padding-top: 17px;
+    border-top: 4px solid var(--mvl-third-color);
+}
+
+.dealer-search-results .heading-font {
+    color: var(--mvl-third-color) !important;
+}
+
+.dealer-search-results table.stm_dealer_list_table {
+    margin-bottom: 40px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.dealer-single-divider {
+    border-bottom: 1px solid #d5d9e0;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer > td:not(:last-child) {
+    padding-right: 5px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td {
+    padding-top: 25px;
+    margin-bottom: 20px;
+    border-bottom: 0;
+    background-color: transparent;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.image {
+    width: 190px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.image a {
+    display: block;
+    min-height: 42px;
+    padding: 5px;
+    max-width: 130px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.image a img {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-info {
+    width: 280px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-info .title h4 {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: var(--mvl-third-color);
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-info .rating .stm-rate-unit {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    margin-right: 3px;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-info .rating .stm-rate-sum {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-cars {
+    display: block;
+    width: 100%;
+    padding-right: 15px;
+    margin-bottom: 0;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-cars .inner {
+    padding-left: 29px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-cars .dealer-labels {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--mvl-third-color);
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-cars .dealer-cars-count {
+    display: block;
+    margin-top: -4px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-phone {
+    width: 190px;
+    color: var(--mvl-third-color);
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-phone .inner .phone {
+    display: inline-block;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-phone .inner .stm-show-number {
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: top;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+    min-width: 20px;
+    position: relative;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-phone .inner .stm-show-number.load_number {
+    color: transparent;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-phone .inner .stm-show-number.load_number:before {
+    content: "\f1ce";
+    display: block;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    color: #333333;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    animation: spin 2s linear infinite;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-phone .phone {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location {
+    width: 255px;
+    color: var(--mvl-third-color);
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .clearfix {
+    position: relative;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .dealer-location-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--mvl-third-color);
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .map_link {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -9px;
+    z-index: 5;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .map_link .fas {
+    margin-right: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .inner {
+    padding-right: 90px;
+    width: 275px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td.dealer-location .inner .stm-label {
+    margin-top: -4px;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 150px;
+    text-overflow: ellipsis;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td .inner {
+    position: relative;
+    padding-left: 25px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td .inner i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: var(--mvl-primary-color);
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td .inner i.stm-service-icon-pin_big {
+    top: 50%;
+    margin-top: -9px;
+    font-size: 18px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td .inner i.stm-service-icon-phone_2 {
+    font-size: 14px;
+}
+
+.dealer-search-results table.stm_dealer_list_table tr.stm-single-dealer td .inner i.stm-service-icon-body_type {
+    font-size: 11px;
+}
+
+.dealer-search-title {
+    margin: 49px 0 0;
+}
+
+.dealer-search-title .stm-car-listing-sort-units {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.dealer-search-title .stm-car-listing-sort-units .stm-directory-listing-top__right {
+    margin: 0 0 0 auto;
+}
+
+.dealer-search-title .stm-car-listing-sort-units .stm-sort-by-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0;
+}
+
+.dealer-search-title .stm-car-listing-sort-units .stm-sort-by-options > span {
+    margin-right: 9px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #888;
+}
+
+.dealer-search-title .stm-car-listing-sort-units .stm-sort-by-options .stm-select-sorting {
+    min-width: 180px;
+}
+
+.dealer-search-title .stm-listing-directory-title {
+    float: left;
+}
+
+.dealer-search-title .stm-listing-directory-title div.title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--mvl-secondary-color-dark);
+    letter-spacing: -0.8px;
+}
+
+.dealer-search-title .stm-listing-directory-title div.title .green {
+    color: var(--mvl-primary-color);
+}
+
+.stm-load-more-dealers.button {
+    display: inline-block;
+    position: relative;
+    background-color: var(--mvl-secondary-color-dark);
+    box-shadow: none;
+    padding: 14px 24px 12px;
+    font-size: 12px;
+}
+
+.stm-load-more-dealers.button.not-clickable {
+    padding: 14px 0 12px;
+    background-color: #aaa !important;
+}
+
+.stm-load-more-dealers.button.not-clickable span {
+    opacity: 0;
+}
+
+.stm-load-more-dealers.button.not-clickable:hover {
+    cursor: not-allowed;
+}
+
+.stm-load-more-dealers.button.not-clickable:before {
+    position: absolute;
+    content: "\e924";
+    display: block;
+    font-family: "motors-icons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -7px;
+    line-height: 22px;
+    animation: rotating 2s infinite linear;
+}
+
+@media (max-width: 500px) {
+    #main .stm_dynamic_listing_dealer_filter tbody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main .stm_dynamic_listing_dealer_filter .stm-single-dealer td {
+        width: 100%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    #main .stm_dynamic_listing_dealer_filter tbody td.dealer-info, #main .stm_dynamic_listing_dealer_filter tbody td.dealer-location {
+        width: 20%;
+    }
+
+    #main .stm_dynamic_listing_dealer_filter tbody td.dealer-cars {
+        display: table-cell;
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1170px) {
+    #main .stm_dynamic_listing_dealer_filter tbody td.dealer-cars {
+        display: table-cell;
+        width: 20%;
+    }
+}

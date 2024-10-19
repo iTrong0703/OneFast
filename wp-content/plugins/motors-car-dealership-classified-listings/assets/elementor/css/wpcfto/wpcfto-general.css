@@ -1,0 +1,24 @@
+.wpcfto_sorter_single .list-group .list-group-item .fa {
+    position: absolute;
+    color: #ff0000;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.sorted_steps .wpcfto-field-description i {
+    color: #ff0000;
+}
+
+.row .wpcfto-box-group_title .wpcfto_generic_field.preview_bottom .wpcfto-field-aside .wpcfto_preview .wpcfto_preview__popup {
+    max-width: 450px;
+}
+
+.row .wpcfto-box-group_title .wpcfto_generic_field.preview_bottom .wpcfto-field-aside .wpcfto_preview .wpcfto_preview__popup img {
+    max-width: 440px;
+}
+
+#add_listing .addl_group_plans_title .wpcfto_preview,
+#add_listing .addl_group_features_title .wpcfto_preview {
+    z-index: 110;
+}

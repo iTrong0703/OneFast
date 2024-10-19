@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'stmew-icons';
+  src:  url('stmew-icons.eot?ft3lmj');
+  src:  url('stmew-icons.eot?ft3lmj#iefix') format('embedded-opentype'),
+    url('stmew-icons.ttf?ft3lmj') format('truetype'),
+    url('stmew-icons.woff?ft3lmj') format('woff'),
+    url('stmew-icons.svg?ft3lmj#stmew-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i[class^="stmew-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stmew-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stmew-arrow-banner:before {
+  content: "\e920";
+}
+.stmew-dealer-list:before {
+  content: "\e921";
+}
+.stmew-icon-counter:before {
+  content: "\e922";
+}
+.stmew-login-register:before {
+  content: "\e923";
+}
+.stmew-pricing-plans:before {
+  content: "\e924";
+}
+.stmew-user-info:before {
+  content: "\e925";
+}
+.stmew-add-listing:before {
+  content: "\e926";
+}
+.stmew-image-categories:before {
+  content: "\e927";
+}
+.stmew-listing-search-tabs:before {
+  content: "\e928";
+}
+.stmew-accordion:before {
+  content: "\e900";
+}
+.stmew-calculation:before {
+  content: "\e901";
+}
+.stmew-car-gurus:before {
+  content: "\e902";
+}
+.stmew-color-drop:before {
+  content: "\e903";
+}
+.stmew-contact-tabs:before {
+  content: "\e904";
+}
+.stmew-currency-usd:before {
+  content: "\e905";
+}
+.stmew-cycle:before {
+  content: "\e906";
+}
+.stmew-email-sign:before {
+  content: "\e907";
+}
+.stmew-gas-station:before {
+  content: "\e908";
+}
+.stmew-google-map:before {
+  content: "\e909";
+}
+.stmew-grid-view:before {
+  content: "\e90a";
+}
+.stmew-icon-box:before {
+  content: "\e90b";
+}
+.stmew-image-carousel:before {
+  content: "\e90c";
+}
+.stmew-info:before {
+  content: "\e90d";
+}
+.stmew-inventory-filter:before {
+  content: "\e90e";
+}
+.stmew-inventory-results:before {
+  content: "\e90f";
+}
+.stmew-inventory-search:before {
+  content: "\e910";
+}
+.stmew-inventory-sort:before {
+  content: "\e911";
+}
+.stmew-framed-eye:before {
+  content: "\e912";
+}
+.stmew-letter-t:before {
+  content: "\e913";
+}
+.stmew-listings-carousel:before {
+  content: "\e914";
+}
+.stmew-list-sheet:before {
+  content: "\e915";
+}
+.stmew-mountain:before {
+  content: "\e916";
+}
+.stmew-person:before {
+  content: "\e917";
+}
+.stmew-phone:before {
+  content: "\e918";
+}
+.stmew-photo-gallery:before {
+  content: "\e919";
+}
+.stmew-price-tag:before {
+  content: "\e91a";
+}
+.stmew-stack:before {
+  content: "\e91b";
+}
+.stmew-star:before {
+  content: "\e91c";
+}
+.stmew-tab-list:before {
+  content: "\e91d";
+}
+.stmew-testimonials:before {
+  content: "\e91e";
+}
+.stmew-whatsapp:before {
+  content: "\e91f";
+}
+.stmew-play-video:before {
+  content: "\e929";
+}
+.stmew-stm-moto-icon-cash:before {
+  content: "\e92a";
+}

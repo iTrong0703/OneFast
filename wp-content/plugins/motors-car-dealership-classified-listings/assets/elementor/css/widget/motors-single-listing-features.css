@@ -1,0 +1,176 @@
+.stm-single-listing-car-features {
+    margin: 0;
+}
+
+.stm-single-listing-car-features ul {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.stm-single-listing-car-features ul li {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.stm-single-listing-car-features ul li i {
+    margin-right: 13px;
+    color: var(--mvl-primary-color);
+    line-height: 20px;
+}
+
+@media (max-width: 767px) {
+    .stm-single-listing-car-features ul li i {
+        margin-right: 2.3vw;
+    }
+}
+
+.stm-single-listing-car-features ul li svg {
+    margin-right: 13px;
+    fill: var(--mvl-primary-color);
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+}
+
+@media (max-width: 767px) {
+    .stm-single-listing-car-features ul li svg {
+        margin-right: 2.3vw;
+    }
+}
+
+.stm-single-listing-car-features .lists-vertical ul {
+    flex-direction: column;
+}
+
+.stm-single-listing-car-features .lists-horizontal ul {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.stm-single-listing-car-features .lists-horizontal ul li {
+    padding-right: 8px;
+}
+
+.stm-single-listing-car-features .lists-horizontal ul li.row-2 {
+    width: 50%;
+}
+
+.stm-single-listing-car-features .lists-horizontal ul li.row-3 {
+    width: 33.33%;
+}
+
+.stm-single-listing-car-features .lists-horizontal ul li.row-4 {
+    width: 25%;
+}
+
+@media (max-width: 768px) {
+    .stm-single-listing-car-features .lists-horizontal ul li.row-2, .stm-single-listing-car-features .lists-horizontal ul li.row-3, .stm-single-listing-car-features .lists-horizontal ul li.row-4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .stm-single-listing-car-features .lists-horizontal ul li.row-2, .stm-single-listing-car-features .lists-horizontal ul li.row-3, .stm-single-listing-car-features .lists-horizontal ul li.row-4 {
+        width: auto;
+        padding-right: 3.5vw;
+    }
+}
+
+.stm-single-listing-car-features.grouped_features ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.stm-single-listing-car-features.grouped_features ul li {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.stm-single-listing-car-features.grouped_features ul li i {
+    margin-right: 13px;
+    color: var(--mvl-primary-color);
+    line-height: 20px;
+}
+
+@media (max-width: 767px) {
+    .stm-single-listing-car-features.grouped_features ul li i {
+        margin-right: 2.3vw;
+    }
+}
+
+.stm-single-listing-car-features.grouped_features .lists-vertical {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.stm-single-listing-car-features.grouped_features .lists-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-2 h4, .stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-3 h4, .stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-4 h4 {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-2 {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-3 {
+    width: 33.33%;
+    margin-bottom: 15px;
+}
+
+.stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-4 {
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+    .stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-2, .stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-3, .stm-single-listing-car-features.grouped_features .lists-horizontal .grouped_checkbox-4 {
+        width: 50%;
+    }
+}
+
+body.rtl .stm-single-listing-car-features ul li i {
+    margin-right: 0;
+    margin-left: 13px;
+}
+
+@media (max-width: 767px) {
+    body.rtl .stm-single-listing-car-features ul li i {
+        margin-left: 2.3vw;
+    }
+}
+
+body.rtl .stm-single-listing-car-features .lists-horizontal li {
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+@media (max-width: 767px) {
+    body.rtl .stm-single-listing-car-features .lists-horizontal li.row-2, body.rtl .stm-single-listing-car-features .lists-horizontal li.row-3, body.rtl .stm-single-listing-car-features .lists-horizontal li.row-4 {
+        padding-left: 3.5vw;
+    }
+}

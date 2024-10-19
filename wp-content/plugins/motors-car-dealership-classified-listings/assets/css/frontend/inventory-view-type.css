@@ -1,0 +1,54 @@
+@media (max-width: 1024px) {
+    .rtl .stm-view-by {
+        float: left;
+    }
+}
+
+.stm-view-by {
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    .stm-view-by {
+        float: right;
+    }
+}
+
+.stm-view-by .view-type {
+    display: block;
+    float: left;
+    color: #8f8f8f;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.stm-view-by .view-type:hover {
+    color: #6c98e1;
+    cursor: pointer;
+}
+
+.stm-view-by .view-type:first-child {
+    margin-left: 0;
+}
+
+.stm-view-by .view-type.view-list {
+    font-size: 12px;
+}
+
+.stm-view-by .view-type.view-grid {
+    text-indent: 2px;
+    font-size: 16px;
+}
+
+.stm-view-by .view-type.active {
+    background-color: #f0f2f5;
+    color: #8f8f8f;
+}
+
+.stm-view-by .view-type.active:hover {
+    color: #6c98e1;
+}

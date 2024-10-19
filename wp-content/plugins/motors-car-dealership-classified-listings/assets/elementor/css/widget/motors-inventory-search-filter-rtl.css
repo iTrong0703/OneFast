@@ -1,0 +1,127 @@
+body.rtl .classic-filter-row.motors-elementor-widget .filter-sidebar .sidebar-entry-header {
+    padding: 26px 24px 21px 22px;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .filter-sidebar .sidebar-entry-header i {
+    margin: 0 0 0 21px;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .filter-sidebar .sidebar-action-units a.button i {
+    margin: 0 0 0 5px;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .stm-filter-links .stm-accordion-single-unit .stm-accordion-content > .content > ul li:before {
+    left: unset;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .stm-filter_price .select2-container[dir=rtl] .select2-selection--single .select2-selection__rendered {
+    direction: ltr;
+    text-align: right;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .select2-container[dir=rtl] .select2-selection--single .select2-selection__rendered {
+    padding-right: 20px;
+    padding-left: 8px;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .form-group .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    left: 5px;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 1024px) {
+    body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row {
+        padding: 0 15px;
+    }
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-right {
+    padding-right: 6px;
+}
+
+@media (max-width: 1024px) {
+    body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-right {
+        padding-right: unset;
+        width: 50%;
+    }
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-left {
+    padding-left: 6px;
+}
+
+@media (max-width: 1024px) {
+    body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-left {
+        padding-left: unset;
+        width: 50%;
+    }
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .stm-accordion-content-wrapper .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+body.rtl .classic-filter-row.motors-elementor-widget .checker {
+    margin-left: 0;
+}
+
+body.rtl .stm-filter-links a span {
+    display: inline-block;
+}
+
+body.rtl .stm-filter-links #stm-filter-link-drive.stm-accordion-single-unit .stm-accordion-content > .content > ul li:before {
+    left: auto;
+    transform: translate(0, -50%) rotate(180deg);
+}
+
+body.rtl .stm-accordion-single-unit > a.title h5 {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-right, body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-left {
+        margin-bottom: 0;
+    }
+
+    body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-right input#stm_filter_max_price, body.rtl .classic-filter-row.motors-elementor-widget .stm-slider-filter-type-unit .row .col-md-wider-left input#stm_filter_max_price {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    body.rtl .classic-filter-row.motors-elementor-widget .search-filter-form .stm-accordion-single-unit .stm-accordion-content .content {
+        padding: 0;
+    }
+
+    body.rtl .classic-filter-row.motors-elementor-widget .search-filter-form .stm-accordion-single-unit .stm-accordion-content .stm-accordion-content-wrapper {
+        padding: 30px 15px;
+    }
+
+    body.rtl .classic-filter-row.motors-elementor-widget .search-filter-form .stm-accordion-single-unit .stm-accordion-content .stm-accordion-content-wrapper .stm-accordion-inner .stm-option-label {
+        width: 48%;
+    }
+
+    body.rtl .classic-filter-row.motors-elementor-widget .search-filter-form .stm-accordion-single-unit .stm-accordion-content .stm-accordion-content-wrapper .stm-accordion-inner .stm-option-label .checker {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    body.rtl .classic-filter-row.motors-elementor-widget .search-filter-form .sticky-filter-actions .filter-show-cars .show-car-btn {
+        box-shadow: none;
+    }
+
+    body.rtl .classic-filter-row.motors-elementor-widget .search-filter-form .sticky-filter-actions .reset-btn-mobile {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+}

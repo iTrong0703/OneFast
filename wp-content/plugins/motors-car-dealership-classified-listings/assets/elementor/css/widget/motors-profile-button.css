@@ -1,0 +1,22 @@
+a.motors-profile-button {
+    display: flex;
+    align-items: center;
+    color: #35475A;
+}
+
+a.motors-profile-button:hover {
+    color: #35475A;
+    cursor: pointer;
+}
+
+a.motors-profile-button .profile-icon-wrapper {
+    font-size: 23px;
+    margin-right: 10px;
+    color: #35475A;
+}
+
+a.motors-profile-button span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #35475A;
+}

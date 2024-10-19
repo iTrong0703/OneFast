@@ -1,0 +1,30 @@
+#elementor-panel-content-wrapper #elementor-panel-category-motors .elementor-element:hover .elementor-element-title-wrapper .title,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_single .elementor-element:hover .elementor-element-title-wrapper .title,
+#elementor-panel-content-wrapper #elementor-panel-page-elements #elementor-panel-elements-wrapper #elementor-panel-elements i[class^="stmew-"]:before,
+#elementor-panel-content-wrapper #elementor-panel-page-elements #elementor-panel-elements-wrapper #elementor-panel-elements i.eicons-motors:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors i[class^="stmew-"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_single i[class^="stmew-"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_classified i[class^="stmew-"]:before {
+	color: #cc6119 !important;
+}
+
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="stmew-"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="eicon-form-horizontal"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="eicon-posts-grid"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="eicon-navigation-horizontal"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="eicon-info-circle-o"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="eicon-plus-circle-o"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="eicon-price-table"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_rental i[class^="eicon-checkout"]:before,
+#elementor-panel-content-wrapper #elementor-panel-category-motors_classified i[class^="stmew-"]:before {
+	color: #cc6119 !important;
+}
+
+#elementor-panel-content-wrapper #elementor-panel-category-stylemixthemes .elementor-element:hover .elementor-element-title-wrapper .title,
+#elementor-panel-content-wrapper #elementor-panel-category-stylemixthemes i[class^="stmew-"]:before {
+	color: #4cbeb5 !important;
+}
+
+.elementor-control-lat input[type="number"], .elementor-control-lng input[type="number"] {
+	width: 100% !important;
+}

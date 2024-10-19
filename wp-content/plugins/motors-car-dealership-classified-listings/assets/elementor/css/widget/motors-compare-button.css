@@ -1,0 +1,21 @@
+a.motors-compare-button {
+    display: flex;
+    align-items: center;
+    color: #35475A;
+}
+
+a.motors-compare-button:hover {
+    color: #35475A;
+}
+
+a.motors-compare-button .compare-icon-wrapper {
+    position: relative;
+    font-size: 23px;
+    margin-right: 10px;
+    color: #35475A;
+}
+
+a.motors-compare-button span {
+    font-weight: 500;
+    color: #35475A;
+}

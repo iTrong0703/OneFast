@@ -1,0 +1,9 @@
+.dealer-contact-unit.mail .email-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dealer-contact-unit.mail .email-btn i {
+    margin: 0 20px 0 0;
+}

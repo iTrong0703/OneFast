@@ -1,0 +1,41 @@
+html body.theme-motors ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .prices .sale_price, html body.theme-motors ul.magazine-menu li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .prices .sale_price, html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .prices .sale_price,
+html body.theme-motors ul li.stm_megamenu > .sub-menu .menu-item:hover > a, html body.theme-motors ul li.stm_megamenu > .sub-menu .menu-item:hover > .menu-title, html body.theme-motors ul.magazine-menu li.stm_megamenu > .sub-menu .menu-item:hover > a, html body.theme-motors ul.magazine-menu li.stm_megamenu > .sub-menu .menu-item:hover > .menu-title, html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .menu-item:hover > .menu-title,
+html body.theme-motors ul li.stm_megamenu > ul.sub-menu > li ul.mm-list li i, html body.theme-motors ul.magazine-menu li.stm_megamenu > ul.sub-menu > li ul.mm-list li i, html body.theme-motors #wrapper #header ul li.stm_megamenu > ul.sub-menu > li ul.mm-list li i,
+html body.theme-motors ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .car-title a:hover, html body.theme-motors ul.magazine-menu li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .car-title a:hover, html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .car-title a:hover,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-makes-wrap .tab-content .stm-mm-vehicles-wrap .stm-mm-vehicle .title a:hover,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm_mm_top_categories_wrap .stm_mm-cats-grid a:hover .inner .name,
+html body.theme-motors ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .prices .normal_price,
+html body.theme-motors ul.magazine-menu li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .prices .normal_price,
+html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .prices .normal_price,
+html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .stm_megaicon, html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .fas,
+html body.theme-motors #wrapper #header ul.magazine-menu li.stm_megamenu > .sub-menu .fas,
+html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .fas,
+html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .stm_megaicon,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-vehicles .stm-mm-vehicles-list ul.top-vehicles li a:hover,
+html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .prices .sale_price,
+html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .stm-special-offers .special-wrap .title-price-wrap .car-title a:hover, html body.theme-motors.stm-layout-header-boats #stm-boats-header #header .header-inner-content .listing-service-right ul li.stm_megamenu__boxed > .sub-menu > li > .menu-title:hover {
+    color: var(--motors-base-color);
+}
+
+html body.theme-motors ul li.stm_megamenu > ul.sub-menu > li ul.sub-menu > li:hover > a, html body.theme-motors ul.magazine-menu li.stm_megamenu > ul.sub-menu > li ul.sub-menu > li:hover > a, html body.theme-motors #wrapper #header ul li.stm_megamenu > ul.sub-menu > li ul.sub-menu > li:hover > a,
+html body.theme-motors #wrapper #header ul li.stm_megamenu > .sub-menu .menu-item:hover > a,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-makes-wrap .nav.nav-tabs .nav-item.active .nav-link, html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-makes-wrap .nav.nav-tabs .nav-item:hover .nav-link,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-vehicles .stm-mm-vehicles-list ul.top-vehicles li a:hover, html body.theme-motors.stm-template-listing_five #wrapper #header ul li.stm_megamenu__boxed > .sub-menu > li > .menu-title:hover, html body.theme-motors.stm-template-equipment #wrapper #header ul li.stm_megamenu > .sub-menu .menu-item:hover > a {
+    color: var(--motors-base-color) !important;
+}
+
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-makes-wrap .nav.nav-tabs .nav-item.active .nav-link:before,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-makes-wrap .nav.nav-tabs .nav-item:hover .nav-link:before,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-vehicles .stm-mm-vehicles-list ul.top-vehicles li a:before,
+html body.theme-motors #wrapper #header ul li.stm_megamenu .stm-mm-top-makes-wrap .tab-content .stm-mm-vehicles-wrap .stm-mm-vehicle .vehicle-img .price {
+    background: var(--motors-base-color);
+}
+
+html body.theme-motors.stm-template-listing_four #wrapper #header ul li.stm_megamenu__boxed.stm_menu_child_use_post > .sub-menu > li.menu-item.active > .menu-title, html body.theme-motors.stm-layout-header-car_dealer #wrapper #header ul li.stm_megamenu__boxed.stm_menu_child_use_post > .sub-menu > li.menu-item > .menu-title, html body.theme-motors.stm-layout-header-listing #wrapper #header ul li.stm_megamenu__boxed.stm_menu_child_use_post > .sub-menu > li.menu-item > .menu-title {
+    border-bottom-color: var(--motors-base-color);
+}
+
+html body.theme-motors #wrapper #header ul li.stm_megamenu.stm_menu_child_use_post > .sub-menu > li.active > .menu-title {
+    border-left-color: var(--motors-base-color);
+    color: var(--motors-base-color);
+}

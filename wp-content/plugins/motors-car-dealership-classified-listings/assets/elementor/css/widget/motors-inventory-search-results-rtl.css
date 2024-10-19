@@ -1,0 +1,200 @@
+body.rtl .motors-elementor-inventory-search-results#listings-result .car-listing-row .listing-car-item-meta .price {
+    direction: ltr;
+    padding: 6px 4px 4px 10px;
+    margin: 0 19px 0 0;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .car-listing-row .listing-car-item-meta .price:before {
+    left: auto;
+    right: -14px;
+    transform: skew(18deg, 0deg);
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .car-listing-row .listing-car-item-meta .discounted-price {
+    direction: ltr;
+    padding: 1px 4px 2px 10px;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .car-listing-row .listing-car-item-meta .discounted-price .regular-price {
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content {
+        margin-top: 20px;
+    }
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-middle {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-middle {
+        flex-direction: column;
+    }
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-top .price.discounted-price {
+    padding: 1px 0 3px 12px;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-top .price.discounted-price .regular-price {
+    direction: ltr;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-top .price.discounted-price .regular-price .label-price {
+    padding-left: 4px;
+    display: inline-block;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .price .heading-font {
+    display: inline-block;
+    direction: ltr;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.add-to-compare {
+    padding-left: 12px;
+    padding-right: 36px;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.add-to-compare i {
+    position: absolute;
+    right: 8px;
+    margin: 0 0 0 0;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.add-to-compare.disabled:after {
+    left: unset;
+    right: 10px;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.add-to-compare.stm-added .stm-show-on-hover i {
+    top: 6px;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-schedule {
+    padding: 0 32px 0 15px;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-schedule i {
+    position: absolute;
+    right: 8px;
+    margin: 0 0 0 0;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-share {
+    padding-left: 15px;
+    padding-right: 35px;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-share i {
+    position: absolute;
+    right: 11px;
+    left: unset;
+    margin: 0 0 0 0;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .next {
+    right: unset;
+    left: 0;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .next i {
+    transform: rotate(180deg);
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .prev {
+    right: 0;
+    left: unset;
+}
+
+body.rtl .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .prev i {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .certified-logo-1, body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .certified-logo-2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .stock-num {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 767px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .image {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-top {
+        margin-top: 0px;
+    }
+
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-top .price {
+        float: left;
+    }
+
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop .content .meta-top .price.discounted-price {
+        float: left;
+    }
+
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.add-to-compare {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.add-to-compare i {
+        position: unset;
+        right: unset;
+        top: unset;
+        margin-left: 5px;
+    }
+
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-schedule {
+        text-align: center;
+    }
+
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-schedule i {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 767px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-schedule i {
+        position: unset;
+    }
+}
+
+@media (max-width: 768px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-share {
+        text-align: center;
+        padding-right: 35px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 767px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-share {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-share i {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 767px) {
+    body.rtl .motors-elementor-inventory-search-results#listings-result .listing-list-loop li .car-action-unit.stm-share i {
+        position: unset;
+    }
+}

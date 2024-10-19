@@ -1,0 +1,133 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d6dade;
+    padding: 10px 0;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap.active {
+    background-color: #f0f0f0;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap label input[type=radio] {
+    margin: 0 4px 0 0;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap .wpcfto_group_title {
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #232628;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap .wpcfto_group_title.active {
+    color: #2985f7;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap .wpcfto-repeater-radio-actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap .wpcfto-repeater-radio-actions > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #8c99a5;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap .wpcfto-repeater-radio-actions > span:last-child {
+    margin-right: 0;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap .wpcfto-repeater-radio-actions > span a {
+    color: #8c99a5;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wpcfto-repeater-radio-single .wpcfto-info-wrap .wpcfto-repeater-radio-actions > span i {
+    vertical-align: baseline;
+    margin-right: 8px;
+}
+
+.wpcfto-repeater-radio-single button.motors_add_new_template.button i {
+    margin: 0 0 0 10px;
+}
+
+.wpcfto-repeater-radio-single button.motors_add_new_template.button.loading {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: auto;
+    opacity: 0.7;
+}
+
+.addListingTemplate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 230px;
+    background-color: #2985f7;
+    border-color: #2985f7;
+    color: #fff;
+    padding: 13px 18px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.addListingTemplate i {
+    margin-right: 5px;
+}
+
+.addListingTemplate.loading {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    opacity: 0.5;
+}

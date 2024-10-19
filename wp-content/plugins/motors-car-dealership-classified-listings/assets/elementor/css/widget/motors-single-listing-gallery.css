@@ -1,0 +1,557 @@
+.motors-elementor-single-listing-gallery {
+    position: relative;
+    max-width: 798px;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.motors-elementor-single-listing-gallery .swiper-container:not(.swiper-container-initialized) > .swiper-wrapper {
+    overflow: visible;
+}
+
+.motors-elementor-single-listing-gallery:hover .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-prev {
+    left: 0;
+}
+
+.motors-elementor-single-listing-gallery:hover .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-next {
+    right: 0;
+}
+
+.motors-elementor-single-listing-gallery .stm-car-medias {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 20;
+}
+
+.motors-elementor-single-listing-gallery .stm-car-medias > div {
+    display: inline-block;
+    margin-right: 9px;
+    padding: 4px 15px 2px 10px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    color: #fff;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.motors-elementor-single-listing-gallery .stm-car-medias > div i {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.motors-elementor-single-listing-gallery .stm-car-medias > div span {
+    position: relative;
+    top: -1px;
+    text-transform: uppercase;
+}
+
+.motors-elementor-single-listing-gallery .stm-car-medias > div:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.motors-elementor-single-listing-gallery .stm-car-medias > div .stm-listing-videos-unit i {
+    position: relative;
+    top: -1px;
+    left: 1px;
+    margin-right: 3px;
+}
+
+.motors-elementor-single-listing-gallery.actions-onhover .stm-car-medias {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.motors-elementor-single-listing-gallery.actions-onhover:hover .stm-car-medias {
+    visibility: visible;
+    opacity: 1;
+}
+
+.motors-elementor-single-listing-gallery.badge-left-top .special-label,
+.motors-elementor-single-listing-gallery.badge-left-top .special-label.h5 {
+    position: absolute;
+    top: 27px;
+    left: -81px;
+    height: 49px;
+    padding: 0 100px;
+    line-height: 49px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: var(--mvl-secondary-color);
+    transform: rotate(-45deg) translateZ(0);
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    z-index: 10;
+}
+
+.motors-elementor-single-listing-gallery.badge-right-top .special-label,
+.motors-elementor-single-listing-gallery.badge-right-top .special-label.h5 {
+    left: auto;
+    right: -81px;
+    transform: rotate(45deg) translateZ(0);
+}
+
+.motors-elementor-single-listing-gallery.badge-right-bottom .special-label,
+.motors-elementor-single-listing-gallery.badge-right-bottom .special-label.h5 {
+    left: auto;
+    right: -78px;
+    top: auto;
+    bottom: 25px;
+}
+
+.motors-elementor-single-listing-gallery.badge-left-bottom .special-label,
+.motors-elementor-single-listing-gallery.badge-left-bottom .special-label.h5 {
+    top: auto;
+    bottom: 20px;
+    left: -76px;
+    transform: rotate(45deg) translateZ(0);
+}
+
+.motors-elementor-single-listing-gallery.video-left .stm-car-medias {
+    right: unset;
+    left: 16px;
+}
+
+@media (max-width: 550px) {
+    .motors-elementor-single-listing-gallery.video-left .stm-car-medias {
+        top: unset;
+        left: unset;
+        right: 7px;
+        bottom: 120px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .motors-elementor-single-listing-gallery.video-left .stm-car-medias {
+        bottom: 140px;
+        right: 7px;
+        left: unset;
+        top: unset;
+    }
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions {
+    position: absolute;
+    right: 7px;
+    top: 16px;
+    z-index: 20;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit {
+    position: relative;
+    float: left;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 2px;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a {
+    border: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a.stm-brochure {
+    line-height: 30px;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a.stm-brochure i {
+    margin-left: 0;
+}
+
+@media (max-width: 920px) {
+    .motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a.stm-car-print i {
+        position: absolute;
+        top: 50%;
+        left: 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a.stm-car-print i {
+        position: absolute;
+        top: 50%;
+        left: 8px;
+    }
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a i {
+    margin: 0;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a.car-action-unit {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit a.car-action-unit i {
+    position: static;
+    transform: none;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit i {
+    color: #fff;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit:hover {
+    cursor: pointer;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit.active {
+    background: var(--mvl-secondary-color);
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit .st_sharethis_large {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit .stm-a2a-popup {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding: 0px 0 4px;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit .stm-a2a-popup.stm-a2a-popup-active {
+    display: block;
+    top: 100%;
+    left: -100%;
+    opacity: 1;
+    z-index: 10;
+    margin-top: 2px;
+    transform: translateX(-68%);
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit .stm-a2a-popup .addtoany_shortcode {
+    background: #ffffff;
+    padding: 5px 5px 1px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+}
+
+.motors-elementor-single-listing-gallery .stm-gallery-actions .stm-gallery-action-unit .stm-a2a-popup .addtoany_shortcode .a2a_kit {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.motors-elementor-single-listing-gallery.actions-onhover .stm-gallery-actions {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.motors-elementor-single-listing-gallery.actions-onhover:hover .stm-gallery-actions {
+    visibility: visible;
+    opacity: 1;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery {
+    max-width: 798px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .video-preview a:before {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 63px;
+    margin: -45px 0 0 -45px !important;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image img {
+    width: 100%;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a img {
+    height: 100vw;
+    max-height: 466px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@media (max-width: 460px) {
+    .motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a img {
+        max-height: 220px;
+    }
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a .image-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) translateZ(0);
+    font-size: 26px;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a .image-icon.image-icon-circle {
+    border-radius: 50%;
+    width: 2.8em;
+    height: 2.8em;
+    background: var(--mvl-secondary-color);
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a .image-icon.image-icon-hexagon {
+    width: 3em;
+    height: 1.75em;
+    background: var(--mvl-secondary-color);
+    backface-visibility: hidden;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a .image-icon.image-icon-hexagon:before {
+    content: "";
+    display: block;
+    border-bottom: 0.9em solid var(--mvl-secondary-color);
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    backface-visibility: hidden;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a .image-icon.image-icon-hexagon:after {
+    content: "";
+    display: block;
+    border-top: 0.9em solid var(--mvl-secondary-color);
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    backface-visibility: hidden;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a .image-icon i {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-46%) translateY(-45%) translateZ(0);
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a:hover .image-icon {
+    visibility: visible;
+    opacity: 1;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a .image-overlay {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.15s ease;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-big-gallery .stm-single-image a:hover .image-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.motors-elementor-single-listing-gallery:not(.display-thumbnails):hover .motors-elementor-big-gallery .stm-single-image a .image-icon {
+    visibility: visible;
+    opacity: 1;
+}
+
+.motors-elementor-single-listing-gallery:not(.display-thumbnails):hover .motors-elementor-big-gallery .stm-single-image a .image-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.motors-elementor-single-listing-gallery.no-thumbnails .motors-elementor-big-gallery .stm-single-image {
+    height: 0;
+}
+
+.motors-elementor-single-listing-gallery.no-thumbnails .motors-elementor-big-gallery .stm-single-image:first-child {
+    height: auto;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery {
+    position: relative;
+    margin-top: 22px;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-single-image {
+    max-width: 142px;
+    width: 142px;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-single-image:hover {
+    cursor: pointer;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-single-image img {
+    width: 100%;
+    max-width: 142px;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    aspect-ratio: 2/1.15;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .swiper-slide:hover {
+    cursor: pointer;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .swiper-slide:after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(35, 38, 40, 0.3);
+    visibility: visible;
+    opacity: 0;
+    width: auto;
+    margin: 0 auto;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .swiper-slide-thumb-active:after {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(35, 38, 40, 0.3);
+    max-width: 142px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls {
+    margin-top: 0;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-prev,
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-next {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-prev:after,
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-next:after {
+    display: inline-block;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    color: #fff;
+    line-height: 82px;
+    margin-left: 11px;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-prev {
+    left: -30px;
+}
+
+@media (max-width: 1024px) {
+    .motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-prev {
+        left: 0;
+    }
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-prev:after {
+    content: "\f053";
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-next {
+    right: -30px;
+}
+
+@media (max-width: 1024px) {
+    .motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-next {
+        right: 0;
+    }
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .stm-swiper-controls .stm-swiper-next:after {
+    content: "\f054";
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .video-preview {
+    position: relative;
+}
+
+.motors-elementor-single-listing-gallery .motors-elementor-thumbs-gallery .video-preview:before {
+    display: inline-block;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    content: "\f144";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    width: 51px;
+    height: 51px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 51px;
+    color: #184c4f;
+    font-size: 30px;
+    z-index: 20;
+}

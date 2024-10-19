@@ -1,0 +1,28 @@
+body.rtl .stm-compare-cars-module .car-listing-row .listing-car-item-meta .price {
+    direction: ltr;
+    margin: 0 19px 0 0;
+    padding: 6px 4px 4px 10px;
+}
+
+body.rtl .stm-compare-cars-module .car-listing-row .listing-car-item-meta .price:before {
+    left: auto;
+    transform: skew(14deg, 0deg);
+    right: -12px;
+}
+
+body.rtl .stm-compare-cars-module .car-listing-row .listing-car-item-meta .price.discounted-price {
+    padding: 1px 4px 2px 10px;
+}
+
+body.rtl .stm-compare-cars-module .compare-values table > tbody tr td .h5 {
+    text-align: right;
+}
+
+body.rtl .stm-compare-cars-module .remove-from-compare {
+    padding: 0 32px 0 6px;
+}
+
+body.rtl .stm-compare-cars-module .remove-from-compare .stm-icon-remove {
+    left: auto;
+    right: 7px;
+}

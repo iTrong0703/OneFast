@@ -1,0 +1,233 @@
+.archive-listing-page,
+.car-listing-modern-grid {
+    padding-top: 10px;
+}
+
+.archive-listing-page .stm-isotope-listing-item,
+.car-listing-modern-grid .stm-isotope-listing-item {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 820px) {
+    .archive-listing-page .stm-isotope-listing-item.col-md-4,
+  .car-listing-modern-grid .stm-isotope-listing-item.col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.archive-listing-page .stm-isotope-listing-item a,
+.car-listing-modern-grid .stm-isotope-listing-item a {
+    text-decoration: none;
+}
+
+.archive-listing-page .stm-isotope-listing-item .image,
+.car-listing-modern-grid .stm-isotope-listing-item .image {
+    position: relative;
+}
+
+.archive-listing-page .stm-isotope-listing-item .image .image-inner,
+.car-listing-modern-grid .stm-isotope-listing-item .image .image-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.archive-listing-page .stm-isotope-listing-item .image img,
+.car-listing-modern-grid .stm-isotope-listing-item .image img {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta {
+    padding-top: 12px;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-meta-top,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-meta-top {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .price,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .price {
+    float: right;
+    position: relative;
+    background-color: #6c98e1;
+    color: #fff;
+    padding: 5px 12px 5px 6px;
+    margin-left: 15px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .price:before,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .price:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: -12px;
+    height: 100%;
+    width: 20px;
+    background-color: #6c98e1;
+    transform: skew(-14deg, 0deg);
+    z-index: 5;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .price .normal-price,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .price .normal-price {
+    position: relative;
+    z-index: 100;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .price.discounted-price,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .price.discounted-price {
+    padding-bottom: 2px;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .price.discounted-price .regular-price,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .price.discounted-price .regular-price {
+    font-size: 82%;
+    line-height: 1;
+    text-decoration: line-through;
+    position: relative;
+    z-index: 100;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .price.discounted-price .sale-price,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .price.discounted-price .sale-price {
+    position: relative;
+    z-index: 100;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-title,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-title,
+  .car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-title {
+        padding-top: 6px;
+    }
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 3px;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul li,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #a8a8a8;
+    font-size: 14px;
+    width: 33.3333%;
+    margin: 5px 0 5px;
+    padding-right: 3px;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul li span,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul li span {
+    display: inline-block;
+    top: 1px;
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.archive-listing-page .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul li i,
+.car-listing-modern-grid .stm-isotope-listing-item .listing-car-item-meta .car-meta-bottom ul li i {
+    margin-right: 5px;
+}
+
+.archive-listing-page .stm-listing-favorite,
+.car-listing-modern-grid .stm-listing-favorite {
+    position: absolute;
+    left: 7px;
+    bottom: 9px;
+    padding: 3px 5px 3px 6px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 2px;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 20;
+}
+
+.archive-listing-page .stm-listing-favorite:hover,
+.car-listing-modern-grid .stm-listing-favorite:hover {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.archive-listing-page .stm-listing-favorite.active,
+.car-listing-modern-grid .stm-listing-favorite.active {
+    background: linear-gradient(180deg, #6c98e1 0%, #6c98e1 100%);
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .archive-listing-page .image .stm-listing-compare,
+  .archive-listing-page .image .stm-listing-favorite,
+  .archive-listing-page .image .stm-car-medias,
+  .car-listing-modern-grid .image .stm-listing-compare,
+  .car-listing-modern-grid .image .stm-listing-favorite,
+  .car-listing-modern-grid .image .stm-car-medias {
+        opacity: 1;
+    }
+}
+
+.archive-listing-page .image:hover .stm-listing-compare,
+.archive-listing-page .image:hover .stm-listing-favorite,
+.archive-listing-page .image:hover .stm-car-medias,
+.car-listing-modern-grid .image:hover .stm-listing-compare,
+.car-listing-modern-grid .image:hover .stm-listing-favorite,
+.car-listing-modern-grid .image:hover .stm-car-medias {
+    opacity: 1;
+}
+
+.archive-listing-page .video-preview,
+.car-listing-modern-grid .video-preview {
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    padding: 5px 8px 4px 25px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #6c98e1;
+    z-index: 20;
+}
+
+.archive-listing-page .video-preview .fa, .archive-listing-page .video-preview .fas,
+.car-listing-modern-grid .video-preview .fa,
+.car-listing-modern-grid .video-preview .fas {
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    margin-top: -6px;
+    font-size: 12px;
+}

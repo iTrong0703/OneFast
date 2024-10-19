@@ -1,0 +1,4 @@
+body.rtl .stm-swiper-controls .stm-swiper-prev:after,
+body.rtl .stm-swiper-controls .stm-swiper-next:after {
+    margin-right: 11px;
+}

@@ -1,0 +1,83 @@
+.motors-desc-slots-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.motors-desc-slots-wrapper .mdsw-right .stm-posts-available-number {
+    margin: 0 0 8px;
+}
+
+#stm_sell_a_car_form .motors-vin-decoder-wrapper {
+    margin-top: 20px;
+    padding: 20px 0 20px;
+    border-top: 4px solid var(--mvl-third-color);
+}
+
+.stm_add_car_form input[type=text],
+.stm_add_car_form input[type=number],
+.stm_add_car_form input[type=tel],
+.stm_add_car_form input[type=email],
+.stm_add_car_form input[type=search],
+.stm_add_car_form input[type=password] {
+    display: block;
+    width: 100%;
+    height: 47px;
+    line-height: 40px;
+    padding: 0 21px;
+    font-weight: 400;
+    color: #888888;
+    border: 2px solid #eceff3;
+    font-size: 14px;
+    outline: none !important;
+    background-color: #eceff3;
+}
+
+.stm_add_car_form input.form-error {
+    border-color: #ff2325;
+}
+
+.stm_add_car_form .stm-car-listing-data-single .stm_add_car_title_form {
+    margin-top: 0;
+}
+
+.stm_add_car_form .stm-form-checking-user .stm-add-a-car-user .clearfix {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stm_add_car_form .stm-form-checking-user .stm-add-a-car-user .clearfix .left-info {
+    margin: 0 auto 0 0;
+}
+
+.stm_add_car_form .stm-form-checking-user .stm-add-a-car-user .clearfix .right-info {
+    margin: 0 0 0 auto;
+}
+
+.stm_add_car_form .stm-form-2-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.stm_add_car_form .stm-form-2-features .stm-car-listing-data-single {
+    width: 100%;
+}
+
+.stm_add_car_form .stm-form-2-features .stm-single-feature .heading-font {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.stm_add_car_form .stm-login-register-form label[for=whatsapp-checker] {
+    margin-top: 10px;
+}

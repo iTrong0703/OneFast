@@ -1,0 +1,158 @@
+.archive-listing-page .archive-listing-page_side {
+    position: relative;
+    z-index: 48;
+    overflow: visible;
+}
+
+@media (max-width: 1023px) {
+    .archive-listing-page .archive-listing-page_side {
+        margin-bottom: 40px;
+    }
+}
+
+.archive-listing-page .archive-listing-page_side .sidebar-entry-header {
+    position: relative;
+    min-height: 40px;
+    padding: 26px 22px 21px 76px;
+    margin: 0 -22px 8px;
+    background-color: #232628;
+}
+
+.archive-listing-page .archive-listing-page_side .sidebar-entry-header i {
+    position: absolute;
+    top: 32px;
+    left: 21px;
+    font-size: 29px;
+    color: #fff;
+}
+
+.archive-listing-page .archive-listing-page_side .sidebar-entry-header .h4 {
+    display: block;
+    padding-top: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+}
+
+.archive-listing-page .archive-listing-page_side input[type=text], .archive-listing-page .archive-listing-page_side input[type=search] {
+    height: 40px;
+    line-height: 40px;
+}
+
+.archive-listing-page .archive-listing-page_side .form-group {
+    margin: 0;
+}
+
+.archive-listing-page .archive-listing-page_side .row .col-md-12 {
+    margin: 8px 0;
+}
+
+.archive-listing-page .archive-listing-page_side .row .col-md-12 h5 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.archive-listing-page .archive-listing-page_side .row .col-md-12 .select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.archive-listing-page .archive-listing-page_side .filter-price {
+    margin: 15px 0;
+}
+
+.archive-listing-page .archive-listing-page_side .filter-price h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.archive-listing-page .archive-listing-page_side .filter-sidebar {
+    padding: 0 22px 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.18);
+}
+
+.archive-listing-page .archive-listing-page_side .stm-inventory-sidebar {
+    margin-top: 25px;
+}
+
+.archive-listing-page .archive-listing-page_side .stm-accordion-single-unit.price .stm-accordion-content {
+    padding: 5px 25px 40px;
+}
+
+.archive-listing-page .archive-listing-page_side .sidebar-action-units .button {
+    width: 100%;
+    max-width: 100%;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-sort-by-options {
+    float: left;
+    font-size: 14px;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-sort-by-options .stm-select-sorting {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-sort-by-options .stm-select-sorting .select2 {
+    font-size: 14px;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-sort-by-options .stm-select-sorting .select2 .select2-selection--single, .archive-listing-page .archive-listing-page_content .stm-sort-by-options .stm-select-sorting .select2 .select2-selection__rendered {
+    height: 32px;
+    line-height: 32px;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-sort-by-options .stm-select-sorting .select2 .select2-selection__arrow {
+    height: 32px;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-featured-top-cars-title {
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 120px;
+    border-bottom: 3px solid #cc6119;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-featured-top-cars-title .heading-font {
+    position: relative;
+    display: inline-block;
+    padding: 3px 16px;
+    color: #ffffff;
+    background-color: #cc6119;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-featured-top-cars-title .heading-font:after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: -14px;
+    height: 100%;
+    width: 32px;
+    background-color: #cc6119;
+    transform: skew(45deg, 0deg);
+    z-index: -1;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-featured-top-cars-title a {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    font-size: 13px;
+    color: #777;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-isotope-sorting.stm-isotope-sorting-featured-top .listing-list-loop:last-child {
+    border-bottom: 3px solid #cc6119;
+}
+
+.archive-listing-page .archive-listing-page_content .stm-isotope-sorting-list .listing-list-loop:last-child {
+    border-bottom: 0;
+}

@@ -1,0 +1,23 @@
+body.rtl .stm-elementor-contact-form-seven form {
+    direction: rtl;
+}
+
+body.rtl .stm-elementor-contact-form-seven form input[type=text],
+body.rtl .stm-elementor-contact-form-seven form input[type=tel],
+body.rtl .stm-elementor-contact-form-seven form input[type=email],
+body.rtl .stm-elementor-contact-form-seven form input[type=search],
+body.rtl .stm-elementor-contact-form-seven form input[type=password] {
+    direction: rtl;
+}
+
+body.rtl .stm-elementor-contact-form-seven .icon-title img, body.rtl .stm-elementor-contact-form-seven .icon-title i {
+    margin: 0 0 0 10px;
+}
+
+body.rtl .stm-elementor-contact-form-seven .form-group {
+    text-align: right;
+}
+
+body.rtl .stm-elementor-contact-form-seven .form-group input {
+    text-align: right;
+}

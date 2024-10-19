@@ -1,0 +1,23 @@
+.elementor-widget-motors-single-listing-offer-price .stm-car_dealer-buttons {
+    margin: 0;
+}
+
+.elementor-widget-motors-single-listing-offer-price .stm-car_dealer-buttons a {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    line-height: 1.35;
+    padding: 17px 25px;
+}
+
+.elementor-widget-motors-single-listing-offer-price .stm-car_dealer-buttons a i {
+    position: static;
+    left: unset;
+    top: unset;
+}
+
+.elementor-widget-motors-single-listing-offer-price .stm-car_dealer-buttons a .label {
+    flex-grow: 1;
+}

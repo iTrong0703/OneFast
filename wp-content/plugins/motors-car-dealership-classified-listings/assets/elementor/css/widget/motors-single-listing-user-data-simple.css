@@ -1,0 +1,189 @@
+.stm-single-car-side .stm-listing-car-dealer-info-simple,
+.stm-single-listing-car-sidebar .stm-listing-car-dealer-info-simple {
+    padding: 0;
+    box-shadow: none;
+    border-top: none;
+    margin-bottom: 40px;
+}
+
+.stm-listing-car-dealer-info-simple {
+    padding: 29px 0;
+    border-bottom: 1px solid #e5e8ec;
+}
+
+.stm-listing-car-dealer-info-simple .stm-no-text-decoration:hover, .stm-listing-car-dealer-info-simple .stm-no-text-decoration:active, .stm-listing-car-dealer-info-simple .stm-no-text-decoration:focus {
+    text-decoration: none !important;
+}
+
+.stm-listing-car-dealer-info-simple .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    letter-spacing: -0.4px;
+}
+
+.stm-listing-car-dealer-info-simple .dealer-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.stm-listing-car-dealer-info-simple .dealer-rating {
+    padding-top: 6px;
+    overflow: hidden;
+}
+
+.stm-listing-car-dealer-info-simple .dealer-rating .stm-rate-sum {
+    color: #888;
+    font-size: 13px;
+}
+
+.stm-listing-car-dealer-info-simple .stm-rate-unit {
+    height: 13px;
+    line-height: 13px;
+    overflow: hidden;
+}
+
+.stm-listing-car-dealer-info-simple .stm-rate-unit .stm-rate-inner {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stm-listing-car-dealer-info-simple .stm-rate-unit .stm-rate-not-filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 13px;
+}
+
+.stm-listing-car-dealer-info-simple .stm-rate-unit .stm-rate-not-filled:after {
+    color: #edab1f;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    font-style: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    content: "\f005\f005\f005\f005\f005";
+    letter-spacing: 1px;
+}
+
+.stm-listing-car-dealer-info-simple .stm-rate-unit .stm-rate-filled {
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.stm-listing-car-dealer-info-simple .stm-rate-unit .stm-rate-filled:after {
+    color: #edab1f;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    font-style: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    content: "\f005\f005\f005\f005\f005";
+    letter-spacing: 1px;
+}
+
+.stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c a .title {
+    margin: 1px 0 0;
+    font-size: 16px;
+}
+
+.stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c a .stm-label {
+    font-size: 13px;
+    color: #888;
+}
+
+.stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c .image {
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+}
+
+.stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c .image img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c .image .no-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #eeeeee;
+    color: #5b6771;
+    border-radius: 50%;
+    font-size: 16px;
+    text-indent: 2px;
+}
+
+.stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c .image a {
+    text-decoration: none !important;
+}
+
+.stm-template-listing_four .stm-listing-car-dealer-info-simple, .stm-template-listing_four_elementor .stm-listing-car-dealer-info-simple {
+    padding: 22px 23px 8px;
+    border: 3px solid #e4e6ea;
+}
+
+.stm-template-listing_four .stm-listing-car-dealer-info-simple .stm-border-bottom-unit, .stm-template-listing_four_elementor .stm-listing-car-dealer-info-simple .stm-border-bottom-unit {
+    padding-bottom: 19px;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.stm-template-listing_four .stm-listing-car-dealer-info-simple .title, .stm-template-listing_four_elementor .stm-listing-car-dealer-info-simple .title {
+    margin-top: 0;
+}
+
+@media (max-width: 991px) {
+    .stm-template-listing_four .stm-listing-car-dealer-info-simple, .stm-template-listing_four_elementor .stm-listing-car-dealer-info-simple {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .stm-template-listing .stm-listing-car-dealer-info-simple {
+        margin-top: 25px;
+    }
+}
+
+.stm-template-listing_five .stm-user-public-profile .stm-user-sidebar .stm-listing-car-dealer-info-simple {
+    display: none !important;
+}
+
+.stm-template-equipment .stm-listing-car-dealer-info-simple {
+    background-color: transparent;
+}
+
+.stm-template-motorcycle .stm-listing-car-dealer-info-simple {
+    background-color: transparent;
+}
+
+.stm-template-car_dealer_two.inventory-light .stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c a .title {
+    color: #121e24;
+}
+
+.stm-template-car_dealer_two.inventory-light .stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c .stm-label {
+    color: #121e24;
+}
+
+.stm-template-car_dealer_two.inventory-dark .stm-listing-car-dealer-info-simple {
+    background-color: transparent;
+}
+
+.stm-template-car_dealer_two.inventory-dark .stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c a .title {
+    color: #ffffff;
+}
+
+.stm-template-car_dealer_two.inventory-dark .stm-listing-car-dealer-info-simple.stm-common-user .stm-user-main-info-c .stm-label {
+    color: #ffffff;
+}
+
+.stm-template-car_dealer_two.inventory-dark .stm-listing-car-dealer-info-simple .title {
+    color: #ffffff;
+}

@@ -1,0 +1,51 @@
+.elementor-editor-active .stm_dynamic_listing_filter .stm-ajax-reloadable, .elementor-editor-active .stm_dynamic_listing_filter .stm-ajax-isnot-reloadable, .elementor-editor-active .stm_dynamic_listing_filter .stm-select-col,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-ajax-reloadable,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-ajax-isnot-reloadable,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-select-col {
+    position: relative;
+}
+
+.elementor-editor-active .stm_dynamic_listing_filter .stm-ajax-reloadable:before, .elementor-editor-active .stm_dynamic_listing_filter .stm-ajax-isnot-reloadable:before, .elementor-editor-active .stm_dynamic_listing_filter .stm-select-col:before,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-ajax-reloadable:before,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-ajax-isnot-reloadable:before,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-select-col:before {
+    display: block;
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10px;
+    margin-left: 0;
+    font-size: 16px;
+    color: #888;
+    width: 15px;
+    height: 15px;
+    border: none;
+    text-align: center;
+    line-height: 16px;
+}
+
+.elementor-editor-active .stm_dynamic_listing_filter .stm-ajax-reloadable select, .elementor-editor-active .stm_dynamic_listing_filter .stm-ajax-isnot-reloadable select, .elementor-editor-active .stm_dynamic_listing_filter .stm-select-col select,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-ajax-reloadable select,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-ajax-isnot-reloadable select,
+.e-preview--show-hidden-elements .stm_dynamic_listing_filter .stm-select-col select {
+    opacity: 1;
+    visibility: visible;
+    line-height: 40px;
+    height: 46px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding: 0 40px 0 14px;
+    outline: none !important;
+    background-color: #eceff3;
+    border: none;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}

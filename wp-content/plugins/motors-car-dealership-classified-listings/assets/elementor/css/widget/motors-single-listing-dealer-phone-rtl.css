@@ -1,0 +1,12 @@
+body.rtl .stm-dealer-info-unit.phone i {
+    margin: 0 0 0 20px;
+}
+
+body.rtl .stm-dealer-info-unit.phone .inner .phone {
+    margin: 0 0 0 20px;
+}
+
+body.rtl .stm-dealer-info-unit .inner .phone {
+    display: inline-block;
+    direction: ltr;
+}

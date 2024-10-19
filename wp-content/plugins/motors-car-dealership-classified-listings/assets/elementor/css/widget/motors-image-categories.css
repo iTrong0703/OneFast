@@ -1,0 +1,277 @@
+.elementor-widget-motors-image-categories .swiper-button-next:after {
+    display: none;
+}
+
+.elementor-widget-motors-image-categories .swiper-button-prev:after {
+    display: none;
+}
+
+.elementor-widget-motors-image-categories .elementor-widget-container {
+    margin: 60px 0 0 0;
+}
+
+.stm_listing_icon_filter.swiper {
+    position: relative;
+    overflow: visible;
+}
+
+.stm_listing_icon_filter.swiper .swiper-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.stm_listing_icon_filter.swiper .swiper-button-next, .stm_listing_icon_filter.swiper .swiper-button-prev {
+    margin: 0;
+    transform: translateY(-50%);
+    width: 55px;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.stm_listing_icon_filter.swiper .swiper-button-next :before, .stm_listing_icon_filter.swiper .swiper-button-prev :before {
+    display: block;
+    height: auto;
+    font-family: "Font Awesome 6 Free";
+    color: inherit;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: 600;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+}
+
+.stm_listing_icon_filter.swiper .swiper-button-prev {
+    left: 0;
+}
+
+.stm_listing_icon_filter.swiper .swiper-button-prev :before {
+    content: "\f053";
+}
+
+.stm_listing_icon_filter.swiper .swiper-button-next {
+    right: 0;
+}
+
+.stm_listing_icon_filter.swiper .swiper-button-next :before {
+    content: "\f054";
+}
+
+.stm_listing_icon_filter.swiper.navigation-outstanding .swiper-button-prev {
+    left: auto;
+    right: 100%;
+    margin-right: 25px;
+}
+
+.stm_listing_icon_filter.swiper.navigation-outstanding .swiper-button-next {
+    right: auto;
+    left: 100%;
+    margin-left: 25px;
+}
+
+.stm_listing_icon_filter.swiper .swiper-wrapper {
+    align-items: center;
+}
+
+.stm_listing_icon_filter.swiper .stm_listing_icon_filter_single {
+    margin-bottom: 0;
+}
+
+.stm_listing_icon_filter.swiper .stm_listing_icon_filter_single .inner {
+    vertical-align: initial;
+}
+
+.stm_listing_icon_filter.swiper .swiper-slide {
+    padding: 0;
+    text-align: center;
+}
+
+.stm_listing_icon_filter.swiper .swiper-slide .inner {
+    padding: 0;
+}
+
+.stm_icon_filter_unit .header-nav {
+    display: flex;
+}
+
+.stm_icon_filter_unit .header-nav .swiper-button-prev, .stm_icon_filter_unit .header-nav .swiper-button-next {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: translateY(0);
+    margin: 0;
+    width: 55px;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.stm_icon_filter_unit .header-nav .swiper-button-prev :before, .stm_icon_filter_unit .header-nav .swiper-button-next :before {
+    display: block;
+    height: auto;
+    font-family: "Font Awesome 6 Free";
+    color: inherit;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: 600;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+}
+
+.stm_icon_filter_unit .header-nav .swiper-button-prev :before {
+    content: "\f053";
+}
+
+.stm_icon_filter_unit .header-nav .swiper-button-next {
+    order: 2;
+    margin-left: 14px;
+}
+
+.stm_icon_filter_unit .header-nav .swiper-button-next :before {
+    content: "\f054";
+}
+
+.stm_icon_filter_unit.nav-in-header .stm_icon_filter_title {
+    float: left;
+}
+
+.stm_icon_filter_unit.nav-in-header .header-nav {
+    float: right;
+}
+
+.stm_listing_icon_filter.swiper.navigation-init {
+    padding: 0 65px;
+}
+
+.stm_listing_icon_filter.swiper.navigation-init.navigation-in-header {
+    padding: 0;
+}
+
+.stm_listing_icon_filter.swiper.navigation-init.navigation-outstanding {
+    padding: 0;
+}
+
+.stm_icon_filter_title {
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.stm_icon_filter_label {
+    margin-top: 9px;
+    float: right;
+    margin-left: 15px;
+    margin-right: 20px;
+    border-bottom: 1px dashed;
+    line-height: 17px;
+}
+
+.stm_icon_filter_label:hover {
+    cursor: pointer;
+}
+
+.stm_listing_icon_filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.stm_listing_icon_filter .swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
+
+.stm_listing_icon_filter.active {
+    margin: 0 -10px;
+}
+
+.stm_listing_icon_filter.active .stm_listing_icon_filter_single {
+    margin-bottom: 16px;
+}
+
+.stm_listing_icon_filter.active .stm_listing_icon_filter_single .name {
+    text-align: left;
+}
+
+.stm_listing_icon_filter.active .stm_listing_icon_filter_single.non-visible {
+    display: inline-block;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single {
+    display: inline-block;
+    vertical-align: top;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single .inner {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single .inner .image {
+    opacity: 0.9;
+    min-height: 62px;
+    line-height: 62px;
+    padding: 0 10px;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single .inner img {
+    display: inline-block;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single .inner .name {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #777;
+    text-decoration: underline;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single:hover .name {
+    color: #4e90cc;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single:hover .image {
+    opacity: 1;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single.non-visible {
+    display: none;
+}
+
+.stm_listing_icon_filter .stm_listing_icon_filter_single.non-visible .name {
+    text-align: left;
+}
+
+@media (max-width: 991px) {
+    .stm_icon_filter_label {
+        margin-right: 0;
+        margin-top: 2px;
+    }
+
+    .stm_listing_icon_filter .stm_listing_icon_filter_single {
+        text-align: center;
+    }
+
+    .stm_listing_icon_filter .stm_listing_icon_filter_single .inner {
+        max-width: 160px;
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+.rtl .stm_icon_filter_unit .header-nav {
+    flex-direction: row-reverse;
+}

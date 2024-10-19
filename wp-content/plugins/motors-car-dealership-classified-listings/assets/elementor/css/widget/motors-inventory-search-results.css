@@ -1,0 +1,231 @@
+.motors-elementor-inventory-search-results#listings-result .stm-featured-top-cars-title {
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 120px;
+    border-bottom: 3px solid var(--mvl-secondary-color);
+}
+
+.motors-elementor-inventory-search-results#listings-result .stm-featured-top-cars-title .heading-font {
+    position: relative;
+    display: inline-block;
+    padding: 3px 16px;
+    color: #ffffff;
+    background-color: var(--mvl-secondary-color);
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.motors-elementor-inventory-search-results#listings-result .stm-featured-top-cars-title .heading-font:after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: -14px;
+    height: 100%;
+    width: 32px;
+    background-color: var(--mvl-secondary-color);
+    transform: skew(45deg, 0deg);
+    z-index: -1;
+}
+
+.motors-elementor-inventory-search-results#listings-result .stm-featured-top-cars-title a {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    font-size: 13px;
+    color: #777;
+}
+
+.motors-elementor-inventory-search-results#listings-result .stm-location-top-listings-title {
+    position: relative;
+    border-bottom: 3px solid var(--mvl-secondary-color);
+    padding: 13px 120px 8px 0;
+    margin: 40px 0 25px;
+}
+
+.motors-elementor-inventory-search-results#listings-result .stm-location-top-listings-title .heading-font {
+    color: #232628;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+}
+
+.motors-elementor-inventory-search-results#listings-result .stm-location-top-listings-title .stm-icon-search-items {
+    margin: 0 7px 0 0;
+    display: inline-block;
+    font-size: 28px;
+}
+
+.motors-elementor-inventory-search-results#listings-result .listing-list-loop .image {
+    max-width: 280px;
+}
+
+@media (max-width: 767px) {
+    .motors-elementor-inventory-search-results#listings-result .listing-list-loop .image {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .motors-elementor-inventory-search-results#listings-result .stm-filter-chosen-units-list {
+        white-space: nowrap;
+        overflow-x: auto;
+        padding-bottom: 5px;
+    }
+
+    .motors-elementor-inventory-search-results#listings-result .stm-filter-chosen-units-list li {
+        display: inline-block;
+        float: none;
+    }
+}
+
+.motors-elementor-inventory-search-results#listings-result ul.page-numbers {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    padding: 0 60px 0;
+    border-top: none;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers {
+        padding: 0 50px 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers {
+        padding: 0 40px 0;
+    }
+}
+
+.motors-elementor-inventory-search-results#listings-result ul.page-numbers li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.motors-elementor-inventory-search-results#listings-result ul.page-numbers li > a {
+    display: block;
+    width: 34px;
+    height: 35px;
+    margin: 0 8px;
+    padding: 0;
+    background-color: var(--mvl-secondary-color);
+    color: #fff;
+    border-top: none;
+    border-radius: 3px;
+    line-height: 35px;
+    text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers li > a {
+        margin: 0 4px;
+    }
+}
+
+@media (max-width: 410px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers li > a {
+        margin: 0 2px;
+    }
+}
+
+.motors-elementor-inventory-search-results#listings-result ul.page-numbers li > span {
+    display: block;
+    width: 34px;
+    height: 35px;
+    margin: 0 8px;
+    padding: 0;
+    background-color: #dddddd;
+    color: #fff;
+    border-top: none;
+    border-radius: 3px;
+    line-height: 35px;
+}
+
+@media (max-width: 767px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers li > span {
+        margin: 0 4px;
+    }
+}
+
+@media (max-width: 410px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers li > span {
+        margin: 0 2px;
+    }
+}
+
+.motors-elementor-inventory-search-results#listings-result ul.page-numbers li .prev, .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .next {
+    width: 54px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .prev, .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .next {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .prev, .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .next {
+        width: 50px;
+    }
+}
+
+@media (max-width: 410px) {
+    .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .prev, .motors-elementor-inventory-search-results#listings-result ul.page-numbers li .next {
+        width: 40px;
+    }
+}
+
+.motors-elementor-inventory-search-results#listings-result ul.page-numbers li .prev {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.motors-elementor-inventory-search-results#listings-result ul.page-numbers li .next {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.motors-elementor-inventory-search-results#listings-result .rmv_txt_drctn:hover .image:before {
+    opacity: 0;
+}
+
+.motors-elementor-inventory-search-results#listings-result .special-label-small, .motors-elementor-inventory-search-results#listings-result .special-label-small.h6 {
+    top: 20px;
+    left: -91px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.motors-elementor-inventory-search-results#listings-result .special-label, .motors-elementor-inventory-search-results#listings-result .special-label.h5 {
+    position: absolute;
+    top: 27px;
+    left: -81px;
+    height: 49px;
+    padding: 0 100px;
+    line-height: 49px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fab637;
+    transform: rotate(-45deg) translateZ(0);
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    z-index: 10;
+}
